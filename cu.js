@@ -10,7 +10,7 @@ function initPage(){
 
 	function getTime(timestamp){
 
-			var lastday_time = currenttime - 48 * 60 * 60 * 1000;
+			var lastday_time = currenttime - 24 * 60 * 60 * 1000;
 			var start_time= timestamp + 19 * 60 * 60 * 1000;
 			var end_time= start_time + 7 * 60 * 60 * 1000;
 				
